@@ -1,3 +1,6 @@
+// Assume that there is a Node class with a value and a next pointer
+
+// Reverse the list and return the new head pointer
 Node reverseList(Node head)
 {
 	Node prev = null;
@@ -16,6 +19,7 @@ Node reverseList(Node head)
 	return head;
 }
 
+// Check if there is a cycle in the list
 bool checkCycle(Node head)
 {
 	Node slow = head;
